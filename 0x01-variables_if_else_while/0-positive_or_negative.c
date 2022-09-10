@@ -1,8 +1,11 @@
-#include <stdlib.h>
-#include <time>
+#include <0-positive_or_ngative.c>
+#include <5:55am>
 /* 0-positive_or_negative.c */
 
-/*betty style doc for function main goes there */
+/**
+main - print a random number and sate if the number is positive, zero
+or is negative.followed by a new line */
+
 int main(void)
 {
   int n;
