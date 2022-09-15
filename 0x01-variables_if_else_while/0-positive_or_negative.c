@@ -1,13 +1,13 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
- * @n : variable that stores different values
+ * main - print if variable is positive or negative
+ * return: 0
  */
-
 int main(void)
 {
   int n;
-
   srand(time(0));
   n = rand() - RAND_MAX / 2;
   if (n > 0)
