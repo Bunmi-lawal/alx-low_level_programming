@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <5:55am>
 /**
  * main - Entry point
  * @n : variable that stores different values
