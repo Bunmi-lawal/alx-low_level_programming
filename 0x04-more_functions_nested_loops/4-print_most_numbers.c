@@ -5,17 +5,18 @@
  */
 void print_most_numbers(void)
 {
-int n;
-for (n = 0; n < 10; n++)
+//Write the Character to stdout	
+for(char ch = '0'; ch <= '9'; ch++)
 {
-if ((n == 2) || (n == 4))
+if(ch == '2' || ch == '4')
 {
 continue;
 }
-printf("%d",n);
+putchar(ch);
+putchar('\n');
 }
 }
-int main(void)
+int main (void)
 {
 print_most_numbers();
 return (0);
