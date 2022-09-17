@@ -12,7 +12,7 @@ if ((n == 2) || (n == 4))
 {
 continue;
 }
-putchar(n);
+printf("%d",n);
 }
 }
 int main(void)
