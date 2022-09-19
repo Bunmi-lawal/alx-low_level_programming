@@ -2,7 +2,7 @@
 /**
 * _puts - function that pring a string
 * str : string to be printed
-*/ return; void
+*/ return: a void answer
 void _puts(char *str)
 {
 for (;*str != '\0'; str++)
