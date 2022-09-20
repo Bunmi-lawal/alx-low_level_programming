@@ -12,7 +12,7 @@ while (str[c] != '\0')
 {
 c++;
 }
-for (b = 0; b < v; b += 2)
+for (b = 0; b < c; b += 2)
 {
 putchar(str[b]);
 }
