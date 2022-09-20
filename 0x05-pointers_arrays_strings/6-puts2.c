@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * puts2 : prints every other character of a string
+ * puts2 - prints every other character of a string
  * @str : character to be modified
  * return: void
  */
