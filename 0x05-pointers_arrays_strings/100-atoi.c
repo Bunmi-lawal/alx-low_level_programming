@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * _atoi - Function that converts a string to an integer
- * @s : variable to be modified
- * return : an integer
+ * @s: variable to be modified
+ * return: an integer
  */
 int _atoi(char *s)
 {
