@@ -10,7 +10,7 @@ int i = 0;
 int bun;
 while (str[i] != '\0')
 {
-j++;
+i++;
 }
 if (1 % 2 == 1)
 {
