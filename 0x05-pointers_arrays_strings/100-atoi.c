@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * _atoi - Function that converts a string to an integer
+ * @_atoi - Function that converts a string to an integer
  * @s : variable to be modified
  * return : an integer
  */
@@ -19,7 +19,7 @@ bun *= -1;
 while (s[b] >= 48 && s[b] <= 57)
 {
 liz = 1;
-ben = (ben * 10) + (s[b] -'0');
+ben = (ben * 10) + (s[b] - '0');
 b++;
 }
 if (liz == 1)
