@@ -7,12 +7,12 @@
  */
 int _strcmp(char *s1, char *s2)
 {
-int bun, i;
+int bun, law;
 bun = 0;
 while (s1[bun] == s2[bun] && s2[bun] != '\0')
 {
 bun++;
 }
-i = s1[bun] - s2[bun]; 
-return (i);
+law = s1[bun] - s2[bun]; 
+return (law);
 }
