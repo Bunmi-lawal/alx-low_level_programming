@@ -7,7 +7,7 @@
 char *string_toupper(char *b)
 {
 int m = 0;
-while (b[m])
+while (b[m] != '\0')
 {
 if (b[m] >= 97 && b[m] <= 122)
 {
