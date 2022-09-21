@@ -18,5 +18,5 @@ dest[bun] = src[i];
 bun++;
 }
 dest[bun] = '\0';
-return (dest)
+return (dest);
 }
