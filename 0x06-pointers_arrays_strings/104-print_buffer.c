@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * print_buffer - function that prints a buffer
@@ -30,9 +29,11 @@ for (l = j; l < j + 10; l++)
 if (l >= size)
 break;
 if (*(b + l) < 32 || *(b + l)> 126)
+printf("%c", '.');
 else
 printf("%c", *(b + l));
-}			}
+}
+}
 printf("\n");
 }
 }
