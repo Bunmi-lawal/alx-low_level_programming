@@ -4,10 +4,11 @@
  * @b : variable to be modified
  * @size : contains bytes ofthe buffer pointed by b
  */
-void print_buffer(char *b, int size)
+int main(void)
+void print_buffer(char *b, int size);
 {
 int j, k, l;
-if (size <= 0)
+if (size_t <= 0)
 printf("\n");
 else
 {
