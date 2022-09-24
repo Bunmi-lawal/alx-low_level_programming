@@ -1,11 +1,12 @@
 #include <stdio.h>
 /**
- * _strncat - function that concatenates two strings
- * @dest : destination
- * @src : source
- * @n : integer
- * return : pointer to the resulting string dest
- */
+* nain - entry point
+* _strncat - function that concatenates two strings
+* @dest : destination
+* @src : sourc
+* @n : integer
+* return : pointer to the resulting string dest
+*/
 char *_strncat(char *dest, char *src, int n)
 {
 int bun = 0, c = 0;

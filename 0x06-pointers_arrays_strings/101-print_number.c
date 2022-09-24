@@ -10,10 +10,10 @@ unsigned int num;
 num = n;
 if (n < 0)
 {
-putchar(45);
+putchar('_');
 num = -n;
 }
-if (num / 10)
+if ((num / 10) > 0)
 {
 print_number(num / 10);
 }
