@@ -5,7 +5,7 @@
  * @needle: searched in haystack 
  * Return: return 0
  */
-char *_strstr(char *haystack, char *needle); 
+char *_strstr(char *haystack, char *needle) 
 {
 char *str0, *str2;
 while (*haystack != '\0')
