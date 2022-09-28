@@ -17,13 +17,13 @@ return (1);
 }
 
 /**
- * _sqrt_recursion- it returns the natural square root of a number
+ * _sqrt_recursion - it returns the natural square root of a number
  * @n : integer to be returned
  * return : - the square root of @n
  */
 int _sqrt_recursion(int n)
 {
-if (n==0)
+if (n == 0)
 return (0);
 return (actual_sqrt_recursion(n, 1));
 }
