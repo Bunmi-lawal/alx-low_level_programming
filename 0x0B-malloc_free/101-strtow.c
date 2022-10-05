@@ -1,30 +1,30 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * count_word - split strings into words
- * @s: string to evaluate
+ * count_word - helg
+ * @s: string
  * Return: number of words
  */
 int count_word(char *s)
 {
 int pull, c, w;
-pull = 0;
-w = 0;
+pull = 0; w = 0;
 for (c = 0; s[c] != '\0'; c++)
 {
 if (s[c] == ' ')
 pull = 0;
 else if (pull == 0)
 {
-pull = 1; w++;
+pull = 1;
+w++;
 }
 }
 return (w);
 }
 /**
- * strtow - splits a string into words
+ * **strtow - splits a string into words
  * @str: string to split
- * Return: pointer to an array of strings (Success) * or NULL (Error)
+ * Return: null or success
  */
 char **strtow(char *str)
 {
@@ -56,9 +56,9 @@ k++;
 c = 0;
 }
 }
-else if (c++ == 0)
-start = i;
+else if (c++ == 0) start = i;
 }
 matrix[k] = NULL;
 return (matrix);
 }
+
