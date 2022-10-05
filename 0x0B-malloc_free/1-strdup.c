@@ -11,7 +11,9 @@ char *law;
 unsigned int i, j;
 if (str == NULL)
 return (NULL);
-for (i = 0; str[i] != '\0'; i++);
+i = 0;
+while (str[i] != '\0')
+i++;
 law = (char *)malloc(sizeof(char) * (i + 1));
 if (law == NULL)
 return (NULL);
