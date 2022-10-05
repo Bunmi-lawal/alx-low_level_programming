@@ -8,7 +8,8 @@
 int count_word(char *s)
 {
 int pull, c, w;
-pull = 0; w = 0;
+pull = 0;
+w = 0;
 for (c = 0; s[c] != '\0'; c++)
 {
 if (s[c] == ' ')
@@ -54,8 +55,7 @@ while (start < end)
 matrix[k] = tmp - c;
 k++;
 c = 0;
-}
-}
+}}
 else if (c++ == 0) start = i;
 }
 matrix[k] = NULL;
