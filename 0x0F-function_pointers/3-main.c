@@ -9,18 +9,28 @@
  */
 int main(int argc, char *argv[])
 {
+int num1, num2;
 int (*oprt)(int, int);
+char *c = argv[2];
 if (argc != 4)
 {
-printf("Error\n');
+printf("Error\n");
 exit(98);
 }
-oprt = get_op_func(law[2]);
-if (!oprt)
+if ((*c != '+' && *c != '-' && *c != '*' && *c != '/' && *c != '%') ||
+*(c + 1) != 0)
 {
 printf("Error\n");
 exit(99);
 }
-printf("%d\n", oprt(atoi(law[1]), atoi(law[3])));
+num1 = atoi(argv[1]);
+num2 = atoi(argv[3]);
+if ((*c == '/' || *c == '%') && num2 == 0)
+{
+printf("Error\n");
+exit(100);
+}
+oprt = get_op_func(c);
+printf("%d\n", oprt(num1, num2));
 return (0);
 }
