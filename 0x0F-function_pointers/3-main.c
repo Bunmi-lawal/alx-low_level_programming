@@ -3,14 +3,14 @@
 #include <stdio.h>
 /**
  * main - This function we have two numbers and an operator
- * @bun: length of number
- * @law : number of arguements
+ * @argc: length of number
+ * @argv : number of arguements
  * return : 0
  */
-int main(int bun, char *law[])
+int main(int argc, char *argv[])
 {
 int (*oprt)(int, int);
-if (bun != 4)
+if (argc != 4)
 {
 printf("Error\n');
 exit(98);
