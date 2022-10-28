@@ -14,7 +14,7 @@ if (index > sizeof(n) * 8)
 return (-1);
 }
 law <<= index;
-if (mask & n)
+if (law & n)
 return (1);
 else
 return (0);
