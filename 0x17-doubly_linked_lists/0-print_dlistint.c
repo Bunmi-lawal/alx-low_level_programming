@@ -3,17 +3,12 @@
 #include <stdio.h>
 #include "lists.h"
 /**
- * print_dlistint - function that prints ll elements of a dlistint_t list
- * @h : pointer that points to dlist_t
- * return : the number of nodes
+ *dlistint_t - doubly linked list
+ *@n: integer
+ *@prev: points to the previous node
+ *@next: points to the next node
+ *Description: doubly linked list node structure
  */
-typedef struct dlistint_s
-{
-int n;
-struct dlistint_s *prev;
-struct dlistint_s *next;
-}
-dlistint_t;
 size_t print_dlistint(const dlistint_t *h)
 {
 size_t count = 0;
