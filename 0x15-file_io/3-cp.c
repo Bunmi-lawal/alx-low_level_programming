@@ -41,7 +41,7 @@ error_exit(99, "Error: Can't write to %s\n", file_to);
 if (bytes_read == -1)
 error_exit(98, "Error: Can't read from file %s\n", file_from);
 if (close(fd_from) == -1)
-error_exit(100, "Error: Can't close fd %d\n",int fd_from);
+error_exit(100, "Error: Can't close fd %d\n", int fd_from);
 if (close(fd_to) == -1)
 error_exit(100, "Error: Can't close fd %d\n", int fd_to);
 }
